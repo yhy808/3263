@@ -11,22 +11,25 @@ Calcium accumulation during long current injections results in
 spike adaptation modulated by Ca-dependent conductances and KM.
 
 Under unix systems:
-to compile the mod files use the command 
-nrnivmodl 
+===================
+- to compile the mod files use the command 
+``` nrnivmodl ```
 and run the simulation hoc file with the command 
-nrngui test_a.hoc
+``` nrngui test_a.hoc ```
 
-This will open a window from which three simulations using the A neuron
+- This will open a window from which three simulations using the A neuron
 could be run to show bursting and non bursting firing of the same cell.
 
 
 Under Windows:
-to compile the mod files use the "mknrndll DOS box" and 
+===================
+- to compile the mod files use the "mknrndll DOS box" and 
 follow on-screen instructions.
 A double click on the simulation file
 test_a.hoc 
 will open the simulation window.
 
+\
 Questions on how to use this model should be directed to
 michele.migliore@pa.ibf.cnr.it
 
