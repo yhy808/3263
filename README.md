@@ -1,7 +1,7 @@
 Hippocampal CA3 pyramidal neuron model from the paper 
 M. Migliore, E. Cook, D.B. Jaffe, D.A. Turner and D. Johnston, Computer
-simulations of morphologically reconstructed CA3 hippocampal neurons, J.
-Neurophysiol. 73, 1157-1168 (1995). 
+simulations of morphologically reconstructed CA3 hippocampal neurons, *J.
+Neurophysiol.* 73, 1157-1168 (1995). 
 
 The paper shows how bursting and non bursting firing modes of CA3 
 neurons can depend on the densities of the Ca-independent conductances,
@@ -11,7 +11,7 @@ Calcium accumulation during long current injections results in
 spike adaptation modulated by Ca-dependent conductances and KM.
 
 Under unix systems:
-===================
+-------------------
 - to compile the mod files use the command 
 ``` nrnivmodl ```
 and run the simulation hoc file with the command 
@@ -22,7 +22,7 @@ could be run to show bursting and non bursting firing of the same cell.
 
 
 Under Windows:
-===================
+--------------
 - to compile the mod files use the "mknrndll DOS box" and 
 follow on-screen instructions.
 A double click on the simulation file
@@ -37,3 +37,8 @@ July 5th 2007 Model updated to run with Model View (1e-6 replaced 0's
 in ca3a.geo) TMM
 August 24th 2007 Updated to allow shape plots to be updated via
 inclusion of flushPlot() in test_a.hoc TMM
+
+
+Changelog
+---------
+2024-10: Converted readme to markdown
